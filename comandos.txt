@@ -1,0 +1,9 @@
+git init - Se inicializa el repositorio en la carpeta en la que se utiliza
+git status -s - Te muestra los archivos que no estan siendo seguidos de la carpeta de manera resumida
+git add [nombre_archivo] - Añade el archivo al area de ensayo (Stag)
+git add . - Agrega todos los archivos de la carpeta
+git commit -m "mensaje" - Pasa los cambios al repositorio local con un mensaje de que cambios se añadieron
+git commit -am "mensaje" - Añade y pasa los archivos al repositorio (evita el uso del git add)
+git commit --amend - Con esto puedes editar el ultimo commit
+git log --oneline - Muestra todos los commit realizados hasta el momento
+git reset --hard [Codigo de commit] - Devuelve todos los archivos de add al commit indicado
