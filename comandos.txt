@@ -7,4 +7,3 @@ git commit -am "mensaje" - Añade y pasa los archivos al repositorio (evita el u
 git commit --amend - Con esto puedes editar el ultimo commit
 git log --oneline - Muestra todos los commit realizados hasta el momento
 git reset --hard [Codigo de commit] - Devuelve todos los archivos de add al commit indicado
-nueva linea
